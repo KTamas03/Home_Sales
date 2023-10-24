@@ -25,35 +25,35 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-d
 
 ### I ran queries to answer the following questions:
 
-- What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.
+# - What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.
   
 ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/5f5442fa-da98-4e9c-babd-065fe2711822)
 
-- What is the average price of a home for each year it was built that has three bedrooms and three bathrooms? Round off your answer to two decimal places.
+# - What is the average price of a home for each year it was built that has three bedrooms and three bathrooms? Round off your answer to two decimal places.
 
 ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/cedcfa9d-538a-4c70-aafc-a657dd2f3525)
 
 
-- What is the average price of a home for each year that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places.
+# - What is the average price of a home for each year that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places.
 
 ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/df92c0d7-0a43-4a86-9f8f-ae43b60fa5ed)
 
 
- -What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.
+ # - What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.
 
-Uncached Data:
+# Uncached Data:
 
 Took approximately 1.54 seconds for the query because each query required reading the data from storage, resulting in longer input/output time.
     
    ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/6d5d9eff-6e2c-4487-99e5-554c908d2954)
 
-Cached Data:
+# Cached Data:
 
 Significantly improved performance on uncached data, reducing the query time to around 0.47 seconds. This is because the data was stored in memory, allowing for faster query execution directly from memory.
     
    ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/9057486a-51a4-40ca-bf85-264f8037ef05)
 
-Parquet Data:
+# Parquet Data:
 
 Fell between the uncached and cached versions, with a query time of about 0.93 seconds. The slight delay can be attributed to the need to access and process data from multiple partitions, introducing additional input/output and overhead.
     
