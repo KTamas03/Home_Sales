@@ -41,17 +41,17 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-d
 
  -What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.
 
-    - Uncached: 
+Uncached Data:
 Took approximately 1.54 seconds for the query because each query required reading the data from storage, resulting in longer input/output time.
     
    ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/6d5d9eff-6e2c-4487-99e5-554c908d2954)
-    
-    - Cached: 
+
+Cached Data:
 Significantly improved performance on uncached data, reducing the query time to around 0.47 seconds. This is because the data was stored in memory, allowing for faster query execution directly from memory.
     
    ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/9057486a-51a4-40ca-bf85-264f8037ef05)
-    
-    - Parquet Data: 
+
+Parquet Data:
 Fell between the uncached and cached versions, with a query time of about 0.93 seconds. The slight delay can be attributed to the need to access and process data from multiple partitions, introducing additional input/output and overhead.
     
    ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/61d410a0-32a8-4b1a-8482-d060ec14bb89)
