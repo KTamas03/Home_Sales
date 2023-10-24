@@ -1,9 +1,10 @@
 ## Home_Sales
 **Module 22 Challenge - Big Data**
 
-In this scenario, I will use my knowledge of SparkSQL to determine key metrics about home sales data. I will use Spark to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table has been uncached. 
+In this scenario, I used my knowledge of SparkSQL to determine key metrics about home sales data. I used Spark to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table had been uncached. 
 
 **The url to resource file:**
+
 https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-data/home_sales_revised.csv
 
 
@@ -14,8 +15,6 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-d
 ## Table of Contents
 
 - [About](#about)
-    - [Part 1: Clean and Append Data in Jupter Notebook](#part-1-clean-and-append-data-in-jupyter-notebook)
-
 - [Getting Started](#getting-started)
 - [Installing](#installing)
 - [Contributing](#contributing)
@@ -59,6 +58,8 @@ I ran queries to answer the following questions:
   - home_sales_revised.csv
 
 **Partitioned_data:**
+
+![image](https://github.com/KTamas03/Home_Sales/assets/132874272/21e32ceb-24ed-4152-9212-9d4774646435)
 
 ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/e4708f71-d15c-406f-a7fc-73a51e79df0a)
 
