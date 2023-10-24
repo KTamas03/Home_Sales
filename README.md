@@ -44,15 +44,15 @@ I ran queries to answer the following questions:
 
     - Uncached:
     
-    ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/6d5d9eff-6e2c-4487-99e5-554c908d2954)
+   ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/6d5d9eff-6e2c-4487-99e5-554c908d2954)
     
     - Cached:
     
-    ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/9057486a-51a4-40ca-bf85-264f8037ef05)
+   ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/9057486a-51a4-40ca-bf85-264f8037ef05)
     
     - Parquet Data:
     
-    ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/61d410a0-32a8-4b1a-8482-d060ec14bb89)
+   ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/61d410a0-32a8-4b1a-8482-d060ec14bb89)
 
 
 **Resource Files I Used:**
