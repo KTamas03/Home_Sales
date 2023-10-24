@@ -61,7 +61,6 @@ I ran queries to answer the following questions:
 
 ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/21e32ceb-24ed-4152-9212-9d4774646435)
 
-![image](https://github.com/KTamas03/Home_Sales/assets/132874272/e4708f71-d15c-406f-a7fc-73a51e79df0a)
 
 
 **My Jupyter Notebook Python Cleaning Script:**
