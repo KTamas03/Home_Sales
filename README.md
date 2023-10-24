@@ -22,9 +22,9 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-d
 
 
 ## About
-### Part 1: Clean and Append Data in Jupter Notebook
 
-I ran queries to answer the following questions:
+### I ran queries to answer the following questions:
+
 - What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.
   
 ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/5f5442fa-da98-4e9c-babd-065fe2711822)
