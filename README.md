@@ -1,7 +1,7 @@
 ## Home_Sales
 **Module 22 Challenge - Big Data**
 
-In this scenario, I used my knowledge of SparkSQL to determine key metrics about home sales data. I used Spark to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table had been uncached. I used Google Colab to implement and run my code.
+In this scenario, I used my knowledge of SparkSQL to determine key metrics about home sales data. I used Spark to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table had been uncached. I used Google Colab to write and run my code.
 
 **The url to resource file:**
 
@@ -72,11 +72,11 @@ Fell between the uncached and cached versions, with a query time of about 0.93 s
   - Home_Sales.ipynb
 
 **Tools/Libraries I Imported:**
-   - import os
-   - import findspark
-   - from pyspark.sql import SparkSession
-   - import time
-   - from pyspark import SparkFiles
+   - import os: Used for interacting with the operating system, like setting environment variables or working with file paths.
+   - import findspark: Used to locate and initialize a Spark installation in your Python environment, making it accessible for PySpark applications.
+   - from pyspark.sql import SparkSession: Used to create a SparkSession, which is the entry point for using PySpark SQL functionality.
+   - import time: Used for time-related functions, such as measuring execution time or introducing delays in code.
+   - from pyspark import SparkFiles: Used for adding and accessing files to the Spark cluster, making external files available for Spark workers during data processing.
 
 
 ## Getting Started
