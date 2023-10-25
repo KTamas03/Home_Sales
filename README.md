@@ -16,7 +16,6 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-d
 - [About](#about)
 - [Getting Started](#getting-started)
 - [Installing](#installing)
-- [Contributing](#contributing)
 
 
 
