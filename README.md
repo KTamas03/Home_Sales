@@ -1,15 +1,14 @@
 ## Home_Sales
 **Module 22 Challenge - Big Data**
 
-In this scenario, I used my knowledge of SparkSQL to determine key metrics about home sales data. I used Spark to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table had been uncached. 
+In this scenario, I used my knowledge of SparkSQL to determine key metrics about home sales data. I used Spark to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table had been uncached. I used Google Colab to implement and run my code.
 
 **The url to resource file:**
 
 https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-data/home_sales_revised.csv
 
 
-**Repository Folders and Contents:**
-- Home_Sales_colab.ipynb
+**Repository Contents:**
 - Home_Sales.ipynb
 
 ## Table of Contents
@@ -69,10 +68,11 @@ Fell between the uncached and cached versions, with a query time of about 0.93 s
 
 
 
-**My Jupyter Notebook Python Cleaning Script:**
-  - Home_Sales_colab.ipynb
+**My Python Script:**
+  - Home_Sales.ipynb
 
 **Tools/Libraries I Imported:**
+   - import os
    - import findspark
    - from pyspark.sql import SparkSession
    - import time
@@ -82,19 +82,8 @@ Fell between the uncached and cached versions, with a query time of about 0.93 s
 ## Getting Started
 
 **Programs/software I used:**
- - Jupyter Notebook: python programming tool, was used for data manipulation and consolidation.
-
-**To activate dev environment and open Jupyter Notebook:**
-- Open Anaconda Prompt
-- Activate dev environment, type 'conda activate dev'
-- Navigate to the folder where repository is saved on local drive
-- Open Jupyter Notebook, type 'Jupyter Notebook'
+ - Google Colab: online tool that allows you to write and execute python in your browser.
 
 ## Installing
-
-- Install Spark and Java (add instructions here)
+- Install Spark and Java (refer to first cell in Home_Sales.ipynb for code required to install)
   
-## Contributing
-
-- ???
-
