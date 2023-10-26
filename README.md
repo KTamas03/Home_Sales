@@ -41,21 +41,24 @@ https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-d
 
 ##### Uncached Data:
 
-Took approximately 1.54 seconds for the query because each query required reading the data from storage, resulting in longer input/output time.
-    
-   ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/6d5d9eff-6e2c-4487-99e5-554c908d2954)
+Took approximately 0.91 seconds for the query because each query required reading the data from storage, resulting in longer input/output time.
+
+  ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/b505a167-5437-467d-8748-93900b97254c)
+
 
 ##### Cached Data:
 
-Significantly improved performance on uncached data, reducing the query time to around 0.47 seconds. This is because the data was stored in memory, allowing for faster query execution directly from memory.
-    
-   ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/9057486a-51a4-40ca-bf85-264f8037ef05)
+Significantly improved performance on uncached data, reducing the query time to around 0.66 seconds. This is because the data was stored in memory, allowing for faster query execution directly from memory.
+
+  ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/7dfba536-b9d1-49f3-9a07-c454464ec5a3)
+
 
 ##### Parquet Data:
 
-Fell between the uncached and cached versions, with a query time of about 0.93 seconds. The slight delay can be attributed to the need to access and process data from multiple partitions, introducing additional input/output and overhead.
-    
-   ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/61d410a0-32a8-4b1a-8482-d060ec14bb89)
+Querying the parquet data was the fastest, with a time of about 0.45 seconds, likely due to efficient data organization and access.
+
+  ![image](https://github.com/KTamas03/Home_Sales/assets/132874272/911afd89-626b-4fee-bc5d-13be09620b98)
+
 
 
 **Resource Files I Used:**
@@ -63,8 +66,7 @@ Fell between the uncached and cached versions, with a query time of about 0.93 s
 
 **Partitioned_data:**
 
-![image](https://github.com/KTamas03/Home_Sales/assets/132874272/21e32ceb-24ed-4152-9212-9d4774646435)
-
+![image](https://github.com/KTamas03/Home_Sales/assets/132874272/52c6026e-473a-439f-91df-621ef231c750)
 
 
 **My Python Script:**
